@@ -25,14 +25,14 @@ body {
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     background-color:#E4E4E4;
-    background-image:linear-gradient(top, orange 0%, orange 51%);
-    background-image:-webkit-linear-gradient(top, orange 0%, orange 51%);
-    background-image:-ms-linear-gradient(top, orange 0%, orange 51%);
+    background-image:linear-gradient(top, FF3300 0%, orange 51%);            /*modificazione fatto Yin
+    background-image:-webkit-linear-gradient(top, FF3300 0%, orange 51%);    /*modificazione fatto Yin
+    background-image:-ms-linear-gradient(top, FF3300 0%, orange 51%);        /*modificazione fatto Yin
     background-image:-webkit-gradient(
         linear,
         left top,
         left bottom,
-        color-stop(0, orange),
+        color-stop(0, FF3300),                                               /*modificazione fatto Yin
         color-stop(0.51, orange)
     );
     background-attachment:fixed;
